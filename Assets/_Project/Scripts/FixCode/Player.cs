@@ -20,27 +20,22 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            Dead();
-        }
+        
     }
 
     public bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.2f, _groundLayer);
-        return hit.collider != null;
+        return true;
     }
 
     private void Dead()
     {
-        _animator.SetTrigger("Die");
         GameManager.Instance.GameOver();
     }
 
     public void SetJump()
     {
-        _animator.SetBool("isJump", true);
+        
     }
 
     public void SetSlide()
@@ -48,15 +43,10 @@ public class Player : MonoBehaviour
         _spriteObject.transform.localRotation = new quaternion(0, 0, -1f, 1);
         _spriteObject.transform.localPosition = new Vector3(-0.5f, 0.3f, 0);
         _spriteObject.transform.localScale = new Vector3(.5f, 1, 1);
-
-        _collider2D.size = new Vector2(0.65f, 0.5f);
-        _collider2D.offset = new Vector2(0.01f, 0.25f);
     }
 
     public void SetIdle()
     {
-        _animator.SetBool("isJump", false);
-
         _spriteObject.transform.localPosition = new Vector3(0, 0, 0);
         _spriteObject.transform.localRotation = new quaternion(0, 0, 0, 1);
         _spriteObject.transform.localScale = Vector3.one;

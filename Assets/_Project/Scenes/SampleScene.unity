@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 352728743}
   - component: {fileID: 352728744}
   - component: {fileID: 352728745}
+  - component: {fileID: 352728746}
   m_Layer: 0
   m_Name: CloudB
   m_TagString: Untagged
@@ -698,6 +699,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dff2b661d0f4c444aad62efb199dae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &352728746
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352728742}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.15625}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.6875, y: 0.3125}
+    newSize: {x: 0.6875, y: 0.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6875, y: 0.3125}
+  m_EdgeRadius: 0
 --- !u!1 &365218578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1269,7 @@ GameObject:
   - component: {fileID: 926694371}
   - component: {fileID: 926694372}
   - component: {fileID: 926694373}
+  - component: {fileID: 926694374}
   m_Layer: 0
   m_Name: CloudA
   m_TagString: Untagged
@@ -1311,6 +1359,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dff2b661d0f4c444aad62efb199dae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &926694374
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926694370}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.34375}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.25, y: 0.6875}
+    newSize: {x: 1.25, y: 0.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.25, y: 0.6875}
+  m_EdgeRadius: 0
 --- !u!1 &1062134503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,6 +1416,7 @@ GameObject:
   - component: {fileID: 1062134504}
   - component: {fileID: 1062134505}
   - component: {fileID: 1062134506}
+  - component: {fileID: 1062134507}
   m_Layer: 0
   m_Name: CloudA
   m_TagString: Untagged
@@ -1411,6 +1506,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dff2b661d0f4c444aad62efb199dae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1062134507
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062134503}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.34375}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.25, y: 0.6875}
+    newSize: {x: 1.25, y: 0.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.25, y: 0.6875}
+  m_EdgeRadius: 0
 --- !u!1 &1062756443
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,6 +2178,7 @@ GameObject:
   - component: {fileID: 1425763136}
   - component: {fileID: 1425763137}
   - component: {fileID: 1425763138}
+  - component: {fileID: 1425763139}
   m_Layer: 0
   m_Name: CloudB
   m_TagString: Untagged
@@ -2126,6 +2268,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dff2b661d0f4c444aad62efb199dae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1425763139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425763135}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.15625}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.6875, y: 0.3125}
+    newSize: {x: 0.6875, y: 0.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6875, y: 0.3125}
+  m_EdgeRadius: 0
 --- !u!1 &1432383076
 GameObject:
   m_ObjectHideFlags: 0

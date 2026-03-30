@@ -12,6 +12,6 @@ public class ScoreUI : MonoBehaviour
 
     private void Update()
     {
-        scoreText.text = "Score: " + GameManager.Instance.GetScore().ToString("0000");
+        
     }
 }

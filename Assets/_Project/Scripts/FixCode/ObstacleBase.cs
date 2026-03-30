@@ -7,7 +7,7 @@ public abstract class ObstacleBase : MonoBehaviour
 
     private void OnEnable()
     {
-        SetPosition();  // 활성화될 때 Y 위치 설정 (CactusObstacle, BirdObstacle에서 오버라이드)
+        SetPosition();
     }
 
     private void Update()
@@ -18,7 +18,7 @@ public abstract class ObstacleBase : MonoBehaviour
 
     private void Move()
     {
-        transform.Translate(Vector2.left * Time.deltaTime * GameManager.Instance.GetSpeed());
+        transform.Translate(Vector2.left * GameManager.Instance.GetSpeed());
     }
 
     private void DestroyOutOfScreen()
