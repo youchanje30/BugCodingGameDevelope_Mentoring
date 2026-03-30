@@ -20,12 +20,16 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Dead();
+        }
     }
 
     public bool IsGrounded()
     {
-        return true;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.2f, _groundLayer);
+        return !(hit.collider == null);
     }
 
     private void Dead()

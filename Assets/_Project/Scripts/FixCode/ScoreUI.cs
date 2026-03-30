@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class ScoreUI : MonoBehaviour
 {
     private Text scoreText;
+    
 
     private void Start()
     {
@@ -12,6 +13,6 @@ public class ScoreUI : MonoBehaviour
 
     private void Update()
     {
-        
+        scoreText.text = "Score: " + GameManager.Instance.GetScore().ToString("0000");
     }
 }

@@ -18,7 +18,7 @@ public abstract class ObstacleBase : MonoBehaviour
 
     private void Move()
     {
-        transform.Translate(Vector2.left * GameManager.Instance.GetSpeed());
+        transform.Translate(Vector2.left * Time.deltaTime * GameManager.Instance.GetSpeed());
     }
 
     private void DestroyOutOfScreen()
