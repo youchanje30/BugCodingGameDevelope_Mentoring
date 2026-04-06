@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BirdObstacle : ObstacleBase
 {
-    private float[] spawnY = { -1.5f, -1f, 0f, 1f, 2f, 3f, 4f };
+    private float[] spawnY = { -1.5f };
 
     protected override void SetPosition()
     {
